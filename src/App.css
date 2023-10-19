@@ -24,7 +24,7 @@
     "seven eight nine multiply"
     "four five six subtract"
     "one two three add"
-    "zero zero decimal equal";
+    "zero zero decimal equals";
   grid-template-columns: 100px 100px 100px 100px;
   gap: 20px;
   padding: 50px;
@@ -139,6 +139,6 @@ button:active {
 #decimal {
   grid-area: decimal;
 }
-#equal {
-  grid-area: equal;
+#equals {
+  grid-area: equals;
 }

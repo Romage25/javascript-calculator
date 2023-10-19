@@ -243,7 +243,7 @@ function App() {
             .
           </button>
           <button
-            id="equal"
+            id="equals"
             onClick={() => {
               buttonPress("=");
             }}
