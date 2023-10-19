@@ -227,7 +227,7 @@ function App() {
           <button
             id="zero"
             onClick={() => {
-              buttonPress("zero");
+              buttonPress("0");
             }}
             className="dark-gray"
           >
