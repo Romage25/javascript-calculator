@@ -23,6 +23,11 @@ function App() {
       if (answer === "") return;
       setAnswer((parseFloat(answer) / 100).toString());
     } else if (isOperator(symbol)) {
+      const lastInput = expression[expression.length - 2];
+      if(isOperator(lastInput)) {
+        setExpression(expression.substring(0, expression.length - 2) + symbol + " ");
+        return;
+      }
       setExpression(et + " " + symbol + " ");
     } else if (symbol === "=") {
       calculate();
